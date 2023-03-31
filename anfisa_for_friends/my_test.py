@@ -24,7 +24,7 @@
                       Настоящее мороженое, для истинных ценителей вкуса. Если на столе появляется ...
                     </p>
                     <!-- Ссылка на товар 0 -->
-                    <a class="mt-3 regular-link" href="{% url 'ice_cream:ice_cream_detail' 0 %}">
+                    <a class="mt-3 regular-link" href="{% include 'ice_cream/detail.html' %}">
                       Подробнее -->
                     </a>
                   </div>
@@ -46,7 +46,7 @@
                       В колумбийском стиле: мороженое с добавлением настоящих карамелизованных кузнечиков.
                     </p>
                     <!-- Ссылка на товар 1 -->
-                    <a class="mt-3 regular-link" href="{% url 'ice_cream:ice_cream_detail' 1 %}">
+                    <a class="mt-3 regular-link" href="{% include 'ice_cream/detail.html' %}">
                       Подробнее -->
                     </a>
                   </div>
@@ -68,7 +68,7 @@
                       Вкус настоящего сыра в вафельном стаканчике.
                     </p>
                     <!-- Ссылка на товар 2 -->
-                    <a class="mt-3 regular-link" href="{% url 'ice_cream:ice_cream_detail' 2 %}">
+                    <a class="mt-3 regular-link" href="{% include 'ice_cream/detail.html' %}">
                       Подробнее -->
                     </a>
                   </div>
